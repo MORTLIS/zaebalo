@@ -1,0 +1,785 @@
+section {
+    display: block;
+}
+
+hr{
+    display: none;
+}
+
+.modal-footer{
+    justify-content: normal;
+}
+
+.glavnai{
+    box-sizing: border-box;
+}
+
+.glavnai nav{
+    display: none;
+}
+
+.glavnai .img-fluid img{
+    max-width: 182px;
+}
+
+.glavnai .a1 {
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    color: #313131;
+    text-decoration: none;
+}
+
+.glavnai .info .a2 {
+    margin-left: 5px;
+    font-size: 16px;
+    color: #313131;
+    text-decoration: none;
+    font-weight: 700;
+    top: -3px;
+    position: relative;
+}
+
+.glavnai .nomer .a2{
+    display: none;
+    color: #54a6de;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 400;
+    position: relative;
+    padding-right: 7px;
+}
+
+.glavnai .nomer .a2:last-child{
+    padding-right: 0;
+    padding-left: 7px;
+}
+
+.glavnai i {
+    color: #cf2e2e;
+    font-size: 20px;
+}
+
+.glavnai ul {
+    list-style-type: none;
+    top: -15px;
+    position: relative;
+}
+
+.glavnai li a{
+    color: #54a6de;
+    text-decoration: none;
+    font-size: 13px;
+    transition: background 0.3s ease;
+}
+
+.glavnai li a:hover{
+    background: #7feaa0;
+    text-decoration: underline;
+}
+
+.glavnai li:last-child{
+    top: -6px;
+    position: relative;
+}
+
+.glavnai .cilka p{
+    display: none;
+}
+
+.curs{
+    background-color: #3C69C8;
+    color: white;
+}
+
+.curs div{
+    height: 60px;
+}
+
+.div-red{
+    background-color: #DF3C42;
+}
+
+.curs a{
+    padding: 6px 0;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.curs ul{
+    background: white;
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+    top: 35px;
+    display: none;
+}
+
+.curs:hover ul{
+    display: block;
+}
+
+.curs ul a{
+    color: #54a6de;
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    padding: 0;
+}
+
+.curs li{
+    border: 1px solid #3C69C8;
+    border-top: 1px solid #a6a9af;
+    border-bottom: 0;
+}
+
+.curs li:last-child{
+    border-bottom: 1px solid #3C69C8;
+}
+
+.curs .a3{
+    top: 17px;
+    position: relative;
+}
+
+.img_section{
+    background-image: url('https://eslukraine.com/wp-content/uploads/2021/05/new-teens-bg-1-1024x280-1.png');
+    height: 517px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.img_section .information h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #3c69c8;
+    padding-top: 78px;
+    padding-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img_section .information p{
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+
+.img_section .information h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #c12728;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img_section .information .btn-danger{
+    background-color: #c12728;
+}
+
+.img_section .information .btn-danger:hover{
+    background-color: #e74546;
+}
+
+.img_section .information .btn{
+    border-radius: 10px;
+}
+
+.img_section .information .btn p{
+    color: white;
+    margin-bottom: 0;
+    padding: 5px 0;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.modal{
+    top: 250px;
+}
+
+.section_text .div_text{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.section_text .div_text p{
+    font-size: 22px;
+    margin: 0;
+}
+
+.section_text h1{
+    color: #3c69c8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    margin: 0;
+    padding-left: 30px;
+    top: 30px;
+    display: block;
+    position: relative;
+}
+
+.block_info .block_div{
+    padding: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 45px;
+    width: 100%;
+    min-height: 550px;
+}
+
+.block_info .block_div h2{
+    font-size: 32px;
+    font-weight: 800;
+    color: #c12728;
+}
+
+.block_info .block_div p{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.block_info .block_div p span{
+    color: #3c69c8;
+}
+
+.block_info .block_div p .span2{
+    color: #c12728;
+}
+
+.block_info img{
+    width: 100%;
+    min-height: 550px;
+    max-height: 550px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.propoganda h1{
+    color: #3c69c8;
+    font-size: 65px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.propoganda .div_text2{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    padding: 60px 30px;
+}
+
+.propoganda .div_text2 p{
+    font-size: 21px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.propoganda .div_text2 p:last-child{
+    margin-bottom: 0;
+}
+
+.item .section_item{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+}
+
+.item .section_item p {
+    margin: 0;
+    padding: 30px 30px 30px 200px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item .section_item h1 {
+    color: #3c69c8;
+    font-size: 100px;
+    margin: 0;
+    font-weight: 800;
+    position: relative;
+    top: -50px;
+    padding-left: 35px;
+}
+
+.item h2 {
+    color: #3c69c8;
+    font-size: 40px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.card_2 .card2{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 45px;
+    background: #f6f6f6;
+}
+
+.card_2 .card2 .card3{
+    padding: 70px;
+    padding-bottom: 20px;
+}
+
+.card_2 .card2 .card3 .carousel{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+
+@media (max-width:1200px) {
+    .block_info img{
+        max-height: 0;
+    }
+
+    .glavnai ul {
+        list-style-type: none;
+        top: 0;
+        position: relative;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .curs{
+        background-color: white;
+        min-height: 230px;
+    }
+
+    .curs div{
+        background-color: #3C69C8;
+        margin-bottom: 8px;
+    }
+
+    .curs div:last-child{
+        background-color: #DF3C42;
+    }
+
+    .propoganda h1{
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .img_section .container{
+        margin: 0;
+    }
+
+    .img_section .information h2{
+        font-size: 45px;
+        font-weight: 700;
+        color: #3c69c8;
+        padding-top: 48px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .img_section .information p{
+        color: black;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1;
+        padding-top: 16px;
+        padding-bottom: 48px;
+    }
+
+    .img_section .information h1{
+        font-size: 45px;
+        font-weight: 900;
+        color: #c12728;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .img_section{
+        height: 500px;
+    }
+
+    .item .section_item p {
+        padding: 30px 30px 30px 130px;
+        font-size: 18px;
+    }
+
+    .item .section_item h1 {
+        font-size: 90px;
+        top: -50px;
+        padding-left: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .block_info img{
+        min-height: 550px;
+    }
+
+    hr{
+        display: block;
+    }
+
+    .d_none{
+        display: none;
+    }
+
+    .glavnai .nomer .a2{
+        display: block;
+    }
+
+    .curs{
+        display: none;
+    }
+
+    .glavnai nav{
+        display: block;
+    }
+
+    .glavnai .cilka .a_cilka{
+        padding: 8px 0;
+        color: #3C69C8;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .glavnai .cilka .a4{
+        color: white;
+    }
+
+    .glavnai .cilka .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border: 2px solid white;
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .glavnai .cilka .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .glavnai .cilka ul{
+        background-color: white!important;
+        border: 0;
+    }
+
+    .glavnai .cilka .bg-primary {
+        background-color: #3c69c8 !important;
+    }
+
+    .glavnai .cilka ul li a{
+        color: #54a6de;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .glavnai .cilka p{
+        padding-right: 8px;
+        color: #54a6de;
+        cursor: default;
+        font-size: 20px;
+    }
+
+    .glavnai .cilka p:last-child{
+        padding-right: 0;
+        padding-left: 8px;
+    }
+
+    .glavnai .cilka p{
+        display: block;
+    }
+
+    .glavnai .cilka .row{
+        --bs-gutter-x: 0rem;
+    }
+
+    .glavnai .cilka .row2{
+        --bs-gutter-x: 1.5rem;
+    }
+
+    .a_cilka2{
+        color: #54a6de;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    .img_section{
+        background-image: url("https://eslukraine.com/wp-content/uploads/2022/01/new-teens-bg-1-1024x280-1-mob.png");
+    }
+
+    .img_section .information h2{
+        font-size: 35px;
+        font-weight: 700;
+        color: #3c69c8;
+        padding-top: 48px;
+        margin-bottom: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .img_section .information p{
+        color: black;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1;
+        padding-bottom: 24px;
+        padding-top: 8px;
+    }
+
+    .img_section .information h1{
+        font-size: 35px;
+        font-weight: 900;
+        color: #c12728;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .img_section{
+        height: 400px;
+    }
+
+    .img_section .information .btn p{
+        color: white;
+        margin-bottom: 0;
+        padding: 3px 0;
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .propoganda h1{
+        font-size: 45px;
+    }
+
+    .item .section_item p {
+        padding: 30px 30px 30px 60px;
+        font-size: 18px;
+    }
+
+    .item .section_item h1 {
+        font-size: 50px;
+        top: 0;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .img_section .information h2{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .img_section .information p{
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1;
+        padding-bottom: 20px;
+        padding-top: 8px;
+    }
+
+    .img_section .information h1{
+        font-size: 30px;
+    }
+
+    .img_section{
+        height: 350px;
+    }
+
+    .img_section .information .btn p{
+        color: white;
+        margin-bottom: 0;
+        padding: 3px 0;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .block_info .block_div{
+        padding: 30px;
+        min-height: 450px;
+    }
+
+    .block_info .block_div h2{
+        font-size: 25px;
+    }
+
+    .block_info .block_div p{
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .block_info img{
+        min-height: 350px;
+    }
+
+    .propoganda h1{
+        font-size: 38px;
+    }
+
+    .propoganda .div_text2 p{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .item .section_item p {
+        padding: 30px 30px 30px 20px;
+        font-size: 14px;
+    }
+
+    .item .section_item h1 {
+        font-size: 25px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 405px) {
+    .img_section .information h2{
+        font-size: 26px;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+
+    .img_section .information p{
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1;
+        padding-top: 8px;
+    }
+
+    .img_section .information h1{
+        font-size: 26px;
+    }
+
+    .img_section{
+        height: 350px;
+    }
+
+    .img_section .information .btn p{
+        color: white;
+        margin-bottom: 0;
+        padding: 3px 0;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .block_info .block_div{
+        padding: 30px;
+        min-height: 350px;
+    }
+
+    .block_info .block_div h2{
+        font-size: 22px;
+    }
+
+    .block_info .block_div p{
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .block_info img{
+        min-height: 250px;
+    }
+
+    .propoganda .div_text2 p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 360px) {
+    .img_section .information h2{
+        font-size: 26px;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+
+    .img_section .information p{
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1;
+        padding-top: 4px;
+    }
+
+    .img_section .information p br{
+        display: none;
+    }
+
+    .img_section .information h1{
+        font-size: 26px;
+    }
+
+    .img_section{
+        height: 350px;
+    }
+
+    .img_section .information .btn p{
+        color: white;
+        margin-bottom: 0;
+        padding: 3px 0;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .block_info .block_div{
+        padding: 30px;
+        min-height: 350px;
+    }
+
+    .block_info .block_div h2{
+        font-size: 20px;
+    }
+
+    .block_info .block_div p{
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .block_info img{
+        min-height: 250px;
+    }
+
+    .propoganda h1{
+        font-size: 34px;
+    }
+
+    .propoganda .div_text2 p{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
