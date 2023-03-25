@@ -310,6 +310,11 @@ hr{
     font-weight: 800;
 }
 
+.card_2 .card2 .card3 img{
+    margin: 0 auto;
+    display: block;
+}
+
 .card_2 .card2{
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
     border-radius: 45px;
@@ -318,13 +323,31 @@ hr{
 
 .card_2 .card2 .card3{
     padding: 70px;
-    padding-bottom: 20px;
+
+}
+
+.card_2 .card2 .card3 .carousel .carousel-item{
+    min-height: 220px;
 }
 
 .card_2 .card2 .card3 .carousel{
-    max-width: 800px;
-    margin: 0 auto;
 
+    margin: 0 auto;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: black;
+    top: 0;
+    border-radius: 50%;
+    color: white;
+    display: block;
+}
+
+.card_2 .card2 .card3 h2{
+    color: #3c69c8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
 }
 
 
@@ -402,6 +425,18 @@ hr{
         font-size: 90px;
         top: -50px;
         padding-left: 35px;
+    }
+
+    .card_2 .card2 .card3{
+        padding: 40px 60px;
+    }
+
+    .card_2 .card2 .card3 .carousel .carousel-item{
+        min-height: 225px;
+    }
+
+    .card_2 .card2 .card3 h2{
+        font-size: 40px;
     }
 }
 
@@ -553,6 +588,19 @@ hr{
         top: 0;
         padding-left: 15px;
     }
+
+    .card_2 .card2 .card3{
+        padding: 30px 50px;
+    }
+
+    .card_2 .card2 .card3 .carousel .carousel-item{
+        min-height: 150px;
+    }
+
+    .card_2 .card2 .card3 h2{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -622,7 +670,36 @@ hr{
         font-size: 25px;
         padding-left: 15px;
     }
+
+    .card_2 .card2 .card3{
+        padding: 20px 40px;
+    }
+
+    .card_2 .card2 .card3 .carousel .carousel-item{
+        min-height: 140px;
+    }
+
+    .card_2 .card2 .card3 h2{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
 }
+
+@media (max-width: 430px) {
+    .card_2 .card2 .card3{
+        padding: 20px 20px;
+    }
+
+    .card_2 .card2 .card3 .carousel .carousel-item{
+        min-height: 130px;
+    }
+
+    .card_2 .card2 .card3 h2{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+}
+
 
 @media (max-width: 405px) {
     .img_section .information h2{
@@ -675,6 +752,19 @@ hr{
 
     .propoganda .div_text2 p{
         font-size: 16px;
+    }
+
+    .card_2 .card2 .card3{
+        padding: 20px 20px 10px 20px;
+    }
+
+    .card_2 .card2 .card3 .carousel .carousel-item{
+        min-height: 120px;
+    }
+
+    .card_2 .card2 .card3 h2{
+        font-size: 25px;
+        margin-bottom: 15px;
     }
 }
 
@@ -737,6 +827,19 @@ hr{
 
     .propoganda .div_text2 p{
         font-size: 15px;
+    }
+
+    .card_2 .card2 .card3{
+        padding: 15px 10px 10px 10px;
+    }
+
+    .card_2 .card2 .card3 .carousel .carousel-item{
+        min-height: 110px;
+    }
+
+    .card_2 .card2 .card3 h2{
+        font-size: 25px;
+        margin-bottom: 10px;
     }
 }
 
