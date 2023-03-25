@@ -87,6 +87,59 @@ hr{
     display: none;
 }
 
+.glavnai2 .d_none {
+    display: block;
+}
+
+.glavnai2 .icon i{
+    color: white;
+    padding-left: 3px;
+}
+
+.glavnai2{
+    color: white;
+}
+
+.glavnai2 .a1 {
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.glavnai2 .info .a2 {
+    margin-left: 5px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    top: -3px;
+    position: relative;
+}
+
+.glavnai2 .nomer .a2{
+    display: none;
+    color: #54a6de;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 400;
+    position: relative;
+    padding-right: 7px;
+}
+
+.glavnai2 .nomer .a2:last-child{
+    padding-right: 0;
+    padding-left: 7px;
+}
+
+.glavnai2 i {
+    color: #cf2e2e;
+    font-size: 20px;
+}
+
+
+
 .curs{
     background-color: #3C69C8;
     color: white;
@@ -350,6 +403,69 @@ hr{
     margin-bottom: 24px;
 }
 
+.pole{
+    background-image: url("https://eslukraine.com/wp-content/themes/esl/img/mainDisplayBg2.jpg");
+    height: 100%;
+    color: white;
+}
+
+.pole h2{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pole .red_block{
+    background-color: #df3c42;
+    margin-bottom: 5px;
+}
+
+.pole .red_block2{
+    display: none;
+    background-color: #df3c42;
+    margin-bottom: 5px;
+}
+
+.pole .red_block2 p{
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pole .red_block:last-child{
+    width: 355px;
+}
+
+.pole .red_block p{
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pole .star{
+    padding-left: 35px;
+}
+
+.pole .star p{
+    margin: 0;
+    padding-left: 5px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.pole .star .fa-solid{
+    color: #fcb900;
+    font-size: 22px;
+}
+
+.pole .div2 h1{
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+
 
 @media (max-width:1200px) {
     .block_info img{
@@ -437,6 +553,81 @@ hr{
 
     .card_2 .card2 .card3 h2{
         font-size: 40px;
+    }
+
+    .pole .star{
+        padding-left: 0;
+    }
+
+    .pole .star p{
+
+        font-size: 20px;
+    }
+
+    .pole .star .fa-solid{
+        font-size: 20px;
+    }
+
+    .pole .red_block{
+        display: none;
+    }
+
+    .pole .red_block2{
+        display: block;
+    }
+
+    .pole .red_block2 p{
+        margin: 0;
+        padding: 5px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .pole h2{
+        font-size: 26px;
+    }
+
+    .pole .div2 .modal-header{
+        padding-top: 1rem!important;
+    }
+
+    .modal-body{
+        padding-bottom: 0!important;
+    }
+
+    .modal-footer{
+        padding-top: 0!important;
+    }
+
+    .glavnai2 .a1 {
+        font-size: 8px;
+        margin-bottom: 0;
+        margin-left: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .glavnai2 .info .a2 {
+        font-size: 10px;
+    }
+
+    .glavnai2 .nomer .a2{
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    .glavnai2 .nomer .a2:last-child{
+        padding-right: 0;
+        padding-left: 7px;
+    }
+
+    .glavnai2 i {
+        color: #cf2e2e;
+        font-size: 13px;
+    }
+
+    .glavnai2 .info{
+        margin-bottom: 0!important;
     }
 }
 
@@ -601,6 +792,36 @@ hr{
         font-size: 35px;
         margin-bottom: 15px;
     }
+
+    .glavnai2 .d_none{
+        display: none;
+    }
+
+    .glavnai2 .d_block{
+        display: block;
+    }
+
+    .glavnai2{
+        display: flex;
+        padding-top: 0!important;
+    }
+
+    .glavnai2 .a1 {
+        font-size: 24px;
+        margin-bottom: 0;
+        margin-left: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .glavnai2 .icon i{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .glavnai2 .img-fluid{
+        width: 150px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -680,8 +901,41 @@ hr{
     }
 
     .card_2 .card2 .card3 h2{
-        font-size: 30px;
+        font-size: 35px;
         margin-bottom: 15px;
+    }
+
+    .pole .star{
+        padding-top: 1rem!important;
+    }
+
+    .pole .star p{
+        font-size: 14px;
+    }
+
+    .pole .star .fa-solid{
+        font-size: 14px;
+    }
+
+    .pole .red_block2 p{
+        margin: 0;
+        padding: 5px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .pole h2{
+        font-size: 18px;
+    }
+
+
+    .glavnai2 .a1 {
+        font-size: 20px;
+    }
+
+    .glavnai2 .icon i{
+        padding-top: 6px;
+        font-size: 18px;
     }
 }
 
@@ -698,6 +952,7 @@ hr{
         font-size: 25px;
         margin-bottom: 15px;
     }
+
 }
 
 
@@ -765,6 +1020,23 @@ hr{
     .card_2 .card2 .card3 h2{
         font-size: 25px;
         margin-bottom: 15px;
+    }
+
+    .pole .red_block2 p{
+        font-size: 12px;
+    }
+
+    .pole h2{
+        font-size: 16px;
+    }
+
+    .glavnai2 .a1 {
+        font-size: 18px;
+    }
+
+    .glavnai2 .icon i{
+        padding-top: 6px;
+        font-size: 16px;
     }
 }
 
@@ -840,6 +1112,15 @@ hr{
     .card_2 .card2 .card3 h2{
         font-size: 25px;
         margin-bottom: 10px;
+    }
+
+    .glavnai2 .a1 {
+        font-size: 17px;
+    }
+
+    .glavnai2 .icon i{
+        padding-top: 6px;
+        font-size: 15px;
     }
 }
 
